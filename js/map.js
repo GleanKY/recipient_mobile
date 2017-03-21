@@ -112,10 +112,9 @@ legend.onAdd = function (map) {
     //type is the content of the Program Type field, labels is what you want the label on the legend to actually say
     //there need to be the same number of types as labels and listed in the same order
     //type = ['Office', 'Recipient', 'Source'];
-    type = ['Source'];
-
-    //labels = ['GleanKY Office', 'Gleaning Recipient', 'Gleaning Source'];
-    labels = ['Gleaning Source'];
+	//labels = ['GleanKY Office', 'Gleaning Recipient', 'Gleaning Source'];
+    type = ['Recipient'];
+    labels = ['Gleaning Recipient'];
     
     for (var i = 0; i < type.length; i++) {
         div.innerHTML +=
