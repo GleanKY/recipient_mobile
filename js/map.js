@@ -23,7 +23,7 @@ function setColor(type) {
 function style(feature) {
     return {
         fillColor: setColor(feature.properties.program_type),
-        color: "#33a02c",
+        color: "white",
         fillOpacity: 0.9,
         width: 0.2
     };
